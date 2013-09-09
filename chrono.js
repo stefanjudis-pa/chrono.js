@@ -21,6 +21,16 @@ Chrono.prototype.clone = function() {
 
 
 /**
+ * Returns the current hour from 0-23
+ *
+ * @return {number} the current setted hour
+ */
+Chrono.prototype.getHour = function() {
+  return (new Date(this._currentTime)).getHours();
+};
+
+
+/**
  * sets date and time to the current time
  *
  * @return {Chrono} this chrono object
