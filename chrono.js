@@ -31,6 +31,16 @@ Chrono.prototype.getHour = function() {
 
 
 /**
+ * Returns the current minute from 0-59
+ *
+ * @return {number} the current setted minute
+ */
+Chrono.prototype.getMinute = function() {
+  return (new Date(this._currentTime)).getMinutes();
+};
+
+
+/**
  * sets date and time to the current time
  *
  * @return {Chrono} this chrono object
