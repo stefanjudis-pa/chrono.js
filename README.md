@@ -12,8 +12,14 @@ Copies/clones a chrono.js object, if you need a working copy that's not changing
 ### .getHour()
 Returns the current hour from 0-23.
 
+### .getMillisecond()
+Returns the current millisecond from 0-999.
+
 ### .getMinute()
 Returns the current minute from 0-59.
+
+### .getSeconds()
+Returns the current second from 0-59.
 
 ### .now()
 Changes the date and time to the current date and time.
