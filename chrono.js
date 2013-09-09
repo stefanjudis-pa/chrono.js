@@ -21,16 +21,6 @@ Chrono.prototype.clone = function() {
 
 
 /**
- * Returns the current 4-digit year
- *
- * @return {number} the current setted year
- */
-Chrono.prototype.getYear = function() {
-  return (new Date(this._currentTime)).getYear();
-};
-
-
-/**
  * Returns the current hour from 0-23
  *
  * @return {number} the current setted hour
@@ -67,6 +57,16 @@ Chrono.prototype.getMillisecond = function() {
  */
 Chrono.prototype.getSecond = function() {
   return (new Date(this._currentTime)).getSeconds();
+};
+
+
+/**
+ * Returns the current 4-digit year
+ *
+ * @return {number} the current setted year
+ */
+Chrono.prototype.getYear = function() {
+  return (new Date(this._currentTime)).getYear();
 };
 
 
