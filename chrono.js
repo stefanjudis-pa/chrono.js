@@ -3,7 +3,7 @@
  *
  * @param {?number|object} timestampOrInit you can use a unix timestamp in
  *     milliseconds and also with negative values; or you're using nothing, then
- *     the date/time will be set to now (depending on your system)
+ *     the date and time will be set to now
  */
 var Chrono = function(timestampOrInit) {
   this._currentTime = timestamp || Date.now();
