@@ -21,5 +21,8 @@ Returns the current minute from 0-59.
 ### .getSeconds()
 Returns the current second from 0-59.
 
+### .getYear()
+Returns the current 4-digit year.
+
 ### .now()
 Changes the date and time to the current date and time.
