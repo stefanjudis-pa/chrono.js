@@ -9,6 +9,9 @@ Initialize a new chrono object. If you set a number as first parameter, it will 
 ### .clone()
 Copies/clones a chrono.js object, if you need a working copy that's not changing the original one.
 
+### .getDay()
+Returns the current day of the month from 1-31.
+
 ### .getHour()
 Returns the current hour from 0-23.
 

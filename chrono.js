@@ -21,6 +21,16 @@ Chrono.prototype.clone = function() {
 
 
 /**
+ * Returns the current day of the month from 1-31
+ *
+ * @return {number} the current setted day of the month
+ */
+Chrono.prototype.getDay = function() {
+  return (new Date(this._currentTime)).getDate();
+};
+
+
+/**
  * Returns the current hour from 0-23
  *
  * @return {number} the current setted hour
@@ -47,6 +57,16 @@ Chrono.prototype.getMinute = function() {
  */
 Chrono.prototype.getMillisecond = function() {
   return (new Date(this._currentTime)).getMilliseconds();
+};
+
+
+/**
+ * Returns the current month from 1-12
+ *
+ * @return {number} the current setted month
+ */
+Chrono.prototype.getMonth = function() {
+  return ((new Date(this._currentTime)).getMonth() + 1);
 };
 
 
